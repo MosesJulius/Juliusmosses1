@@ -1,0 +1,345 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+}
+
+h4 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.inputBox {
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.inputBox input[type="text"],
+.inputBox input[type="email"],
+.inputBox input[type="password"],
+.inputBox input[type="address"],
+.inputBox input[type="tell"] {
+  width: calc(100% - 10px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.inputBox input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radioButton {
+  margin-bottom: 15px;
+}
+
+.radioButton input {
+  margin-right: 5px;
+}
+
+.radioButton label {
+  margin-right: 20px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #218838;
+}
+
+input[type="submit"]#Login {
+  background-color: #007bff;
+}
+
+input[type="submit"]#Login:hover {
+  background-color: #0056b3;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+h1{
+    display: flex;
+    color: rgb(44, 92, 196);  
+}
+
+.header{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 80px;
+}
+
+div.bacground{
+    width: 255px;
+    box-shadow: 0 5px 10px  0 rgb(0,0,0,0.3), 0 8px 20px 0 rgb(0,0,0,0.2);
+    text-align: center;
+    cursor: pointer;
+    margin: 42px;
+}
+
+div.text{
+    padding: 22px;
+    color: #000;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.homeContainer{
+    margin-top: 20px;
+}
+
+.prisonContainer{
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    background: url("../image/image.p1.png");
+    text-decoration: chocolate;
+}
+
+.prisonContainer ul{
+    display: flex;
+
+}
+
+.prisonContainer li{
+    margin: 30%;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+
+.Container{
+    width: 385;
+    position: relative;
+    padding: 70px 40px 40px;
+    box-shadow: 0 7px 12px 0 rgb(0,0,0,0.2) 0 14px 42px 0 rgb(0,0,0,0.2);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.container h2{
+    font-weight: bold;
+    font-size: 5000;
+    left: 0;
+    margin-right: 14opx;
+}
+
+.LoginSignin{
+    margin-top: -25px;
+    margin-right: 70px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 12px;
+}
+
+.Container form{
+    position: relative;
+    width: 100%;
+}
+
+.container form.inputBox{
+    position: relative;
+    display: flex;
+}
+
+.Container form.inputBox input{
+    border: none;
+    background: transparent;
+    font-size: 2em;
+    outline: none;
+}
+
+.Container form .inputBox input[type="text"],
+.Container form .inputBox input[type="password"]{
+    padding: 15px 20px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    width: 50%;
+    box-shadow: inset 5px 5px 10px rgb(0,0,0,0.2),
+    inset -5px -5px 10px #fff;
+    text-align: left; 
+}
+
+.Container form .inputBox input[type="submit"]{
+    margin: 20px;
+    margin-top: 20px;
+    padding: 15px 20px;
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.3),
+    -5px -5px 10px #fff;
+    width: 30%;
+    font-weight: 5000;
+    margin: 15;
+}
+
+
+.HomeHead {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .homeBar {
+    background-color: #444;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .homeBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .homeBar li {
+    margin-right: 20px;
+  }
+  
+  .homeBar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .homeBar a:hover {
+    color: #ccc;
+  }
+  
+  .homeBar .icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .homeBar .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .prisonContainer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .prisonBar {
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .prisonBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .prisonBar li {
+    margin-right: 20px;
+  }
+  
+  .prisonBar a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .prisonBar a:hover {
+    color: #ccc;
+  }
+  
+  .prisonBar.icon {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .prisonBar.title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .prisonercontainer {
+    align-items: center;
+    justify-items: center;
+    display: flex;
+    max-width: 400px;
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ff0;
+    margin-left: 140px;
+  }
+  
+  input[type="text"], input[type="number"] {
+    width: 30%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 250px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  
